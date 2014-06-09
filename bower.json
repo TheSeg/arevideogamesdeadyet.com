@@ -1,0 +1,27 @@
+{
+  "name": "arevideogamesdeadyet.com",
+  "version": "0.0.0",
+  "homepage": "http://arevideogamesdeadyet.com",
+  "authors": [
+    "John *Seg* Seggerson <seg@segonmedia.com>"
+  ],
+  "description": "Are video games dead yet?",
+  "main": "index.html",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "video games",
+    "jekyll"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
