@@ -73,6 +73,10 @@ module.exports = function(grunt) {
       lib_test: {
         files: '<%= jshint.lib_test.src %>',
         tasks: ['jshint:lib_test']
+      },
+      style: {
+        files: 'assets/style/**/*.scss',
+        tasks: ['sass:dist']
       }
     }
   });
