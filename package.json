@@ -1,0 +1,38 @@
+{
+  "name": "are-video-games-dead-yet",
+  "description": "Are video games dead yet?",
+  "version": "0.0.1",
+  "author": {
+    "name": "John *Seg* Seggerson",
+    "email": "",
+    "web": "http://theseg.github.io/"
+  },
+  "bugs": {
+    "web": "https://github.com/TheSeg/arevideogamesdeadyet.com/issues"
+  },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git@github.com:TheSeg/arevideogamesdeadyet.com.git"
+    }
+  ],
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "homepage": "http://arevideogamesdeadyet.com",
+  "engines": {
+    "node": ">= 0.10.28"
+  },
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "^0.3.0",
+    "grunt-contrib-jshint": "^0.7.2",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-uglify": "^0.2.7",
+    "grunt-contrib-watch": "^0.5.3"
+  }
+}
