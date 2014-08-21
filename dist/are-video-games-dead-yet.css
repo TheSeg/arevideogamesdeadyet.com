@@ -2,7 +2,10 @@
 body { background-color: #000; color: #fff; font-family: 'Roboto Condensed', sans-serif; }
 
 .wrapper { display: table; height: 100vh; width: 100%; }
-.wrapper .content { display: table-cell; vertical-align: middle; text-align: center; font-size: 80pt; font-weight: bold; }
+.wrapper .content { display: table-cell; vertical-align: middle; text-align: center; }
+.wrapper .content h1 { font-size: 80pt; font-weight: bold; margin: 0; padding: 0; }
+.wrapper .content h2 { font-size: 14pt; margin: 0; padding: 0; }
+.wrapper .content h2 a { color: #666; }
 
 .footer { position: absolute; left: 0; bottom: 0; font-size: 10pt; padding: 4px; color: #333; }
 .footer a { color: #444; }
