@@ -47,15 +47,11 @@ module.exports = function(grunt) {
       },
       gruntfile: {
         src: 'Gruntfile.js'
-      },
-      lib_test: {
-        src: ['lib/**/*.js']
       }
     },
     sass: {
       dist: {
         options: {
-          sourcemap:true,
           unixNewlines:true,
           style:'compact'
         },
