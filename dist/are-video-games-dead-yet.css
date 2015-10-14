@@ -1,14 +1,2 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:700,400,300);
-body { background-color: #000; color: #fff; font-family: 'Roboto Condensed', sans-serif; }
-
-.wrapper { display: table; height: 100vh; width: 100%; }
-.wrapper .content { display: table-cell; vertical-align: middle; text-align: center; }
-.wrapper .content h1 { font-size: 80pt; font-weight: bold; margin: 0; padding: 0; }
-.wrapper .content h2 { font-size: 14pt; margin: 0; padding: 0; }
-.wrapper .content h2 a { color: #666; }
-
-.footer { position: absolute; left: 0; bottom: 0; font-size: 10pt; padding: 4px; color: #333; }
-.footer a { color: #444; }
-.footer a:hover { color: #444; }
-
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700,400,300);body{background-color:#000;color:#fff;font-family:'Roboto Condensed', sans-serif}.wrapper{display:table;height:100vh;width:100%}.wrapper .content{display:table-cell;vertical-align:middle;text-align:center}.wrapper .content h1{font-size:80pt;font-weight:bold;margin:0;padding:0}.wrapper .content h2{font-size:14pt;margin:0;padding:0}.wrapper .content h2 a{color:#666}.footer{position:absolute;left:0;bottom:0;font-size:10pt;padding:4px;color:#333}.footer a{color:#444}.footer a:hover{color:#444}
 /*# sourceMappingURL=are-video-games-dead-yet.css.map */

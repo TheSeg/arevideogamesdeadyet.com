@@ -53,7 +53,7 @@ module.exports = function(grunt) {
       dist: {
         options: {
           unixNewlines:true,
-          style:'compact'
+          style:'compressed'
         },
         files: {
           "dist/<%= pkg.name %>.css":"assets/style/app.scss"
@@ -64,10 +64,6 @@ module.exports = function(grunt) {
       gruntfile: {
         files: '<%= jshint.gruntfile.src %>',
         tasks: ['jshint:gruntfile']
-      },
-      lib_test: {
-        files: '<%= jshint.lib_test.src %>',
-        tasks: ['jshint:lib_test']
       },
       style: {
         files: 'assets/style/**/*.scss',
